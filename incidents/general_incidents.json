@@ -22,7 +22,6 @@
     {
         "ID": "5",
         "title": "Incident 5",
-        "inkstory": "incidents/redis-story.json",
         "scenario": "test5"
     }
 ]
