@@ -1,0 +1,28 @@
+[
+    {
+        "ID": "1",
+        "title": "Incident 1",
+        "scenario": "You received alerts that the Lab Software (LIMS) is down. Multiple customers notifies us that they are receiving 5XX errors on the API"
+    },
+    {
+        "ID": "2",
+        "title": "Incident 2",
+        "scenario": "test"
+    },
+    {
+        "ID": "3",
+        "title": "Incident 3",
+        "scenario": "You've received an alert that your Blob storage system is unable to store objects..."
+    },
+    {
+        "ID": "4",
+        "title": "Incident 4",
+        "scenario": "You've received alerts that your DC eu-west-1 has a power outage..."
+    },
+    {
+        "ID": "5",
+        "title": "Incident 5",
+        "inkstory": "incidents/redis-story.json",
+        "scenario": "You've received an alert that your Redis server is killed..."
+    }
+]
