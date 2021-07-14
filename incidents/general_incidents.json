@@ -2,7 +2,7 @@
     {
         "ID": "1",
         "title": "Incident 1",
-        "scenario": "You received alerts that the Lab Software (LIMS) is down and multiple customers notify us that they are receiving 5XX errors on the API"
+        "scenario": "A customer reports that api.color.com shows your connection is not private which also causes a outage to customers using our API"
     },
     {
         "ID": "2",
