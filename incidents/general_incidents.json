@@ -1,27 +1,27 @@
 [
     {
         "ID": "1",
-        "title": "Incident 1",
-        "scenario": "A customer reports that api.color.com shows your connection is not private which also causes a outage to customers using our API"
+        "title": "SSL/TLS Handshake Failure",
+        "scenario": "A customer reports that api.color.com is showing an insecure connection on the web UI which also may cause some outages for customers using our API"
     },
     {
         "ID": "2",
-        "title": "Incident 2",
-        "scenario": "Jim from Salesforce created a pulse on Metabase via dashboard.color.com, Jim later notifies Color support the wrong COVID-19 results are returning linking to another customer"
+        "title": "Possible PII/PHI Leak",
+        "scenario": "Jim from NIH created a pulse on Metabase via dashboard.color.com, Jim later notifies support@color.com the wrong COVID-19 results for UCSF are returning in the dashboard"
     },
     {
         "ID": "3",
-        "title": "Incident 3",
-        "scenario": "During a production db upgrade, all Color apps and APIs go down. Customers notifies us that they are receiving 500 errors and LIMSis down."
+        "title": "Complete outage for all Color apps and API",
+        "scenario": "During a production db upgrade, all Color apps and API are unreachable. Multiple customers notify us that they are receiving 500 errors and ask to bring the sites back up immediately."
     },
     {
         "ID": "4",
-        "title": "Incident 4",
-        "scenario": "A new product launch (vaccine) was launched on Monday morning and the eng-oncall immediately starts to get paged `5XX count GreaterThanOrEqualToThreshold of 10`"
+        "title": "Vaccine product launch causes intermittent connection",
+        "scenario": "A new product launch (vaccine) was launched Monday morning. The primary on-call immediately starts to get paged `5XX count GreaterThanOrEqualToThreshold of 10`"
     },
     {
         "ID": "5",
-        "title": "Incident 5",
-        "scenario": "A new service was created and had application logs sent to Datadog. Someone notices the logs include PHI and PII visible to anyone with Datadog access."
+        "title": "PHI and PII logs are exposed on Datadog",
+        "scenario": "A new service was created and had all application logs sent to Datadog. Someone notices the logs include PHI and PII which is visible to anyone with Datadog access."
     }
 ]
