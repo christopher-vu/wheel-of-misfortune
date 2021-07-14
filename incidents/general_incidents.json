@@ -2,26 +2,26 @@
     {
         "ID": "1",
         "title": "Incident 1",
-        "scenario": "You received alerts that the Lab Software (LIMS) is down. Multiple customers notifies us that they are receiving 5XX errors on the API"
+        "scenario": "You received alerts that the Lab Software (LIMS) is down and multiple customers notify us that they are receiving 5XX errors on the API"
     },
     {
         "ID": "2",
         "title": "Incident 2",
-        "scenario": "test"
+        "scenario": "Jim from Salesforce created a pulse on Metabase via dashboard.color.com, Jim later notifies Color support the wrong COVID-19 results are returning linking to another customer"
     },
     {
         "ID": "3",
         "title": "Incident 3",
-        "scenario": "test3"
+        "scenario": "During a production db upgrade, all Color apps and APIs go down. Customers notifies us that they are receiving 500 errors and LIMSis down."
     },
     {
         "ID": "4",
         "title": "Incident 4",
-        "scenario": "test4"
+        "scenario": "A new product launch (vaccine) was launched on Monday morning and the eng-oncall immediately starts to get paged `5XX count GreaterThanOrEqualToThreshold of 10`"
     },
     {
         "ID": "5",
         "title": "Incident 5",
-        "scenario": "test5"
+        "scenario": "A new service was created and had application logs sent to Datadog. Someone notices the logs include PHI and PII visible to anyone with Datadog access."
     }
 ]
